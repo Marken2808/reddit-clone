@@ -1,7 +1,8 @@
-import { Typography } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import { API } from "aws-amplify";
 import { useEffect, useState } from "react";
 import { ListPostsQuery, Post } from "../API";
+import PostPreview from "../components/PostPreview";
 import { useUser } from "../context/AuthContext";
 import { listPosts } from "../graphql/queries";
 
@@ -29,5 +30,11 @@ export default function Home() {
 
   console.log(posts);
 
-  return <Typography>Hello world</Typography>;
+  return (
+    <Container maxWidth="lg">
+      {posts.map((post) => (
+        <PostPreview key={post.id} post={post} />
+      ))}
+    </Container>
+  );
 }
