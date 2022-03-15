@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "redditclone",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/nctuan/Desktop/T-Drive/Practical/TypeScriptPract/Nextjs/reddit-clone/amplify/backend/api/redditclone/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-03-15T13:48:36.677Z",
+      "keyDescription": "qwe"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authredditclone742a3966"
+      }
+    ]
+  }
+}
