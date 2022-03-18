@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "redditclone742a3966_identitypool_742a3966",
+    "identityPoolName": "redditclone7495cf0a_identitypool_7495cf0a",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "reddit742a3966",
-    "userPoolName": "redditclone742a3966_userpool_742a3966",
+    "resourceNameTruncated": "reddit7495cf0a",
+    "userPoolName": "redditclone7495cf0a_userpool_7495cf0a",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "reddit742a3966_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "reddit7495cf0a_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "742a3966",
-    "resourceName": "redditclone742a3966",
+    "sharedId": "7495cf0a",
+    "resourceName": "redditclone7495cf0a",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "triggers": {},

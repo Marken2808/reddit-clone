@@ -1,6 +1,6 @@
 {
   "auth": {
-    "redditclone742a3966": {
+    "redditclone7495cf0a": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -35,15 +35,15 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 365,
-              "apiKeyExpirationDate": "2023-03-15T13:48:36.677Z",
-              "description": "qwe"
+              "apiKeyExpirationDate": "2023-03-17T23:15:08.071Z",
+              "description": ""
             }
           },
           "additionalAuthenticationProviders": [
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authredditclone742a3966"
+                "userPoolId": "authredditclone7495cf0a"
               }
             }
           ]

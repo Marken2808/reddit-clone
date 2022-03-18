@@ -7,13 +7,13 @@
     "defaultAuthType": {
       "mode": "API_KEY",
       "expirationTime": 365,
-      "apiKeyExpirationDate": "2023-03-15T13:48:36.677Z",
-      "keyDescription": "qwe"
+      "apiKeyExpirationDate": "2023-03-17T23:15:08.071Z",
+      "keyDescription": ""
     },
     "additionalAuthTypes": [
       {
         "mode": "AMAZON_COGNITO_USER_POOLS",
-        "cognitoUserPoolId": "authredditclone742a3966"
+        "cognitoUserPoolId": "authredditclone7495cf0a"
       }
     ]
   }
